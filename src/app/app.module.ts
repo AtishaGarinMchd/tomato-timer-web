@@ -11,6 +11,8 @@ import { TaskInlineComponent } from './components/task-inline/task-inline.compon
 import { TaskListComponent } from './components/task-list/task-list.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { MenuDropdownComponent } from './components/menu-dropdown/menu-dropdown.component';
+import { MenuButtonComponent } from './components/menu-button/menu-button.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { SettingsComponent } from './components/settings/settings.component';
     TaskInlineComponent,
     TaskListComponent,
     FooterComponent,
-    SettingsComponent
+    SettingsComponent,
+    MenuDropdownComponent,
+    MenuButtonComponent
   ],
   imports: [
     BrowserModule

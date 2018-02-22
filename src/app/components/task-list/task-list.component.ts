@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-task-list',
+  selector: 'tt-task-list',
   templateUrl: './task-list.component.html'
 })
 export class TaskListComponent implements OnInit {

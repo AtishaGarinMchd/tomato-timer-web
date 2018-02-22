@@ -1,3 +1,9 @@
-<p>
-  menu works!
-</p>
+<div class="menu-main">
+  <div class="logo-wrap">
+    <img class="logo" src="assets/images/logo1.PNG">
+  </div>
+  <div class="menu-wrapper">
+    <tt-menu-button class="menu-button" *ngFor="let menu of menuItems" [menuItem]="menu">
+    </tt-menu-button>
+  </div>
+</div>
